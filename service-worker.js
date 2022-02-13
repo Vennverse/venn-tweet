@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/venn-tweet/precache-manifest.b1707e846b97ea4f0707388c3ca5b7fe.js"
+  "/venn-tweet/precache-manifest.544f16835b33ca0e24b44f15a21d20a6.js"
 );
 
 workbox.clientsClaim();
