@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      var test = true; // False if contracts are on Mainnet
+      var contractAddressSale = '0x93Df7D7E01C60843AcF1b9Ec463E5772B959a0ce';
+      var contractAddressToken = '0x040C14d8bcD464d8767e0f7d2cF1147ED8F1c36A';
+      </script>
+      
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="https://bafybeiettcgogfvc64d7d7kssxu7sng6wezxtfblljcnwtmgq6ewmika2a.ipfs.infura-ipfs.io/" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=yes"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Vennverse</title>
+  </head>
+  <body>
+
+    <div style="text-align: center">
+      <button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addTestMATIC" style="font-size: 12px;">Polygon (MATIC) Mumbai Testnet</button>
+      <span id="nometamask" class="err" style="display: none">Please install Metamask first...</span>
+      <div class="network small"><span id="curnet"><span class="err">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Metamask</a>)</span></span> <span id="myAddr"></span>
+      <span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>
+      </div>
+      
+      
+      <script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
+      <script src='https://dappbuilder.org/js/ethers-5.0.umd.min.js' type="text/javascript" charset="utf-8"></script>
+      <script src='https://dappbuilder.org/matic/tokensaleclaimtimeref/js/tokensale.ui.js' type="text/javascript" charset="utf-8"></script>
+      
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+     
+    </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
