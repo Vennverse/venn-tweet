@@ -51,12 +51,12 @@ class Main extends Component {
                           className="btn btn-link btn-sm float-right pt-0"
                           name={post.id}
                           onClick={(event) => {
-                            let tipAmount = window.web3.utils.toWei('0.5', 'Ether')
+                            let tipAmount = window.web3.utils.toWei('0.1', 'Ether')
                             console.log(event.target.name, tipAmount)
                             this.props.tipPost(event.target.name, tipAmount)
                           }}
                         >
-                          TIP 0.5 ETH
+                          TIP 0.1 Matic
                         </button>
                       </li>
                     </ul>
