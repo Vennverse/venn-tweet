@@ -1,15 +1,15 @@
 {
-  "main.css": "/venn-tweet/static/css/main.39fa7306.chunk.css",
-  "main.js": "/venn-tweet/static/js/main.4dc7fa79.chunk.js",
-  "main.js.map": "/venn-tweet/static/js/main.4dc7fa79.chunk.js.map",
-  "static/css/1.2a18771a.chunk.css": "/venn-tweet/static/css/1.2a18771a.chunk.css",
-  "static/js/1.df37449c.chunk.js": "/venn-tweet/static/js/1.df37449c.chunk.js",
-  "static/js/1.df37449c.chunk.js.map": "/venn-tweet/static/js/1.df37449c.chunk.js.map",
-  "runtime~main.js": "/venn-tweet/static/js/runtime~main.425ea26a.js",
-  "runtime~main.js.map": "/venn-tweet/static/js/runtime~main.425ea26a.js.map",
-  "static/css/main.39fa7306.chunk.css.map": "/venn-tweet/static/css/main.39fa7306.chunk.css.map",
-  "static/css/1.2a18771a.chunk.css.map": "/venn-tweet/static/css/1.2a18771a.chunk.css.map",
-  "index.html": "/venn-tweet/index.html",
-  "precache-manifest.544f16835b33ca0e24b44f15a21d20a6.js": "/venn-tweet/precache-manifest.544f16835b33ca0e24b44f15a21d20a6.js",
-  "service-worker.js": "/venn-tweet/service-worker.js"
+  "main.css": "/meta/static/css/main.fe7a9048.chunk.css",
+  "main.js": "/meta/static/js/main.5b778246.chunk.js",
+  "main.js.map": "/meta/static/js/main.5b778246.chunk.js.map",
+  "static/css/1.2a18771a.chunk.css": "/meta/static/css/1.2a18771a.chunk.css",
+  "static/js/1.1a826a3a.chunk.js": "/meta/static/js/1.1a826a3a.chunk.js",
+  "static/js/1.1a826a3a.chunk.js.map": "/meta/static/js/1.1a826a3a.chunk.js.map",
+  "runtime~main.js": "/meta/static/js/runtime~main.cffb0b4c.js",
+  "runtime~main.js.map": "/meta/static/js/runtime~main.cffb0b4c.js.map",
+  "static/css/main.fe7a9048.chunk.css.map": "/meta/static/css/main.fe7a9048.chunk.css.map",
+  "static/css/1.2a18771a.chunk.css.map": "/meta/static/css/1.2a18771a.chunk.css.map",
+  "index.html": "/meta/index.html",
+  "precache-manifest.7c7ef89bf07392ccdbf2e0b4bdbeb997.js": "/meta/precache-manifest.7c7ef89bf07392ccdbf2e0b4bdbeb997.js",
+  "service-worker.js": "/meta/service-worker.js"
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/venn-tweet/precache-manifest.544f16835b33ca0e24b44f15a21d20a6.js"
+  "/meta/precache-manifest.7c7ef89bf07392ccdbf2e0b4bdbeb997.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/venn-tweet/index.html", {
+workbox.routing.registerNavigationRoute("/meta/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
